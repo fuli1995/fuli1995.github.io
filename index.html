@@ -4,42 +4,39 @@ title: 付力
 ---
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
-
 <head>
-    <title>付力</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi">
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="keywords" content="付力 个人博客">
-    <meta name="author" content="付力">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <style>
-    	*{
-    		font-family: "microsoft yahei light", sans-serif;
-    		line-height: 1.5em;
-    	}
-    	.box{
-    		border:1px solid #ddd;
-    		border-radius: 0.8em;
-    		margin-top:2em;
-    		box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
-    		
-    	}
-    </style>
+<title>付力</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="keywords" content="付力 个人博客">
+<meta name="author" content="付力">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<style>
+    *{
+        font-family: "microsoft yahei light", sans-serif;
+        line-height: 1.5em;
+    }
+    .box{
+        border:1px solid #ddd;
+        border-radius: 0.8em;
+        margin-top:2em;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+
+    }
+</style>
 </head>
-
 <body>
-    <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 box">
-        <h2>{{ page.title }}</h2>
-        <p><i>不可说。</i></p>
-        <br>
-        <p>最新文章</p>
-        <ul>
-            {% for post in site.posts %}
-            <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
+<div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 box">
+<h2>{{ page.title }}</h2>
+<p><i>不可说。</i></p>
+<br>
+<p>最新文章</p>
+<ul>
+    {% for post in site.posts %}
+    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+</div>
 </body>
-
 </html>
