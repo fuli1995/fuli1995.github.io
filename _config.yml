@@ -6,7 +6,7 @@ email: foolish9595@live.com
 description: "Nothine to say."
 keyword: "fuli debating"
 url: "http://fuli1995.github.io"          # your host, for absolute URL
-baseurl: "/fuli1995.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/fuli1995/fuli1995.github.io.git" # you code repository
 
 # Sidebar settings
@@ -60,14 +60,14 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: qiubaiying.github.io    #仓库名称
-#   owner: qiubaiying    #github用户名
-#   admin: qiubaiying
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 19c1322602405b391c8f                            #生成的clientID
+  clientSecret: e6764b386b2de142aed79e753ee599d28e3c52ca   #生成的clientSecret
+  repo: fuli1995.github.io    #仓库名称
+  owner: fuli1995    #github用户名
+  admin: fuli
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -77,8 +77,8 @@ kramdown:
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-117518035-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
